@@ -1,10 +1,99 @@
-# Python-generated files
+# ==========================================
+# Python artifacts & bytecode
+# ==========================================
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.py[cod]
+*$py.class
+*.so
 
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
 # Virtual environments
-.venv
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+.conda/
+
+# ==========================================
+# Jupyter Notebook artifacts
+# ==========================================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.jupyter/
+
+# ==========================================
+# Submission outputs & archives
+# ==========================================
+output/
+outputs/
+submission/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# ==========================================
+# Datasets & data directories
+# ==========================================
+datasets/
+data/
+*.h5
+*.hdf5
+
+# ==========================================
+# Model checkpoints & training logs
+# ==========================================
+checkpoints/
+logs/
+runs/
+wandb/
+.tensorboard/
+*.log
+
+# ==========================================
+# Caches & temporary files
+# ==========================================
+.cache/
+.pytest_cache/
+.ruff_cache/
+*.tmp
+
+# ==========================================
+# IDEs & code editors
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Operating System files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
