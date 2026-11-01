@@ -53,12 +53,12 @@ submission/
 *.tgz
 *.rar
 *.7z
+*.png
 
 # ==========================================
 # Datasets & data directories
 # ==========================================
 datasets/
-data/
 *.h5
 *.hdf5
 
